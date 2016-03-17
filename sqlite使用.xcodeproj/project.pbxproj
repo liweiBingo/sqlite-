@@ -13,6 +13,8 @@
 		43E7283D1C754E2700DC2A01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E7283B1C754E2700DC2A01 /* Main.storyboard */; };
 		43E7283F1C754E2700DC2A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E7283E1C754E2700DC2A01 /* Assets.xcassets */; };
 		43E728421C754E2700DC2A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E728401C754E2700DC2A01 /* LaunchScreen.storyboard */; };
+		43E7284C1C754F4500DC2A01 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E7284B1C754F4500DC2A01 /* libsqlite3.0.tbd */; };
+		43E7284F1C754F8200DC2A01 /* shopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E7284E1C754F8200DC2A01 /* shopModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		43E7283E1C754E2700DC2A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43E728411C754E2700DC2A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43E728431C754E2700DC2A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E7284B1C754F4500DC2A01 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		43E7284D1C754F8200DC2A01 /* shopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shopModel.h; sourceTree = "<group>"; };
+		43E7284E1C754F8200DC2A01 /* shopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shopModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E7284C1C754F4500DC2A01 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 		43E728261C754E2600DC2A01 = {
 			isa = PBXGroup;
 			children = (
+				43E7284B1C754F4500DC2A01 /* libsqlite3.0.tbd */,
 				43E728311C754E2700DC2A01 /* sqlite使用 */,
 				43E728301C754E2700DC2A01 /* Products */,
 			);
@@ -62,6 +69,8 @@
 				43E728361C754E2700DC2A01 /* AppDelegate.m */,
 				43E728381C754E2700DC2A01 /* ViewController.h */,
 				43E728391C754E2700DC2A01 /* ViewController.m */,
+				43E7284D1C754F8200DC2A01 /* shopModel.h */,
+				43E7284E1C754F8200DC2A01 /* shopModel.m */,
 				43E7283B1C754E2700DC2A01 /* Main.storyboard */,
 				43E7283E1C754E2700DC2A01 /* Assets.xcassets */,
 				43E728401C754E2700DC2A01 /* LaunchScreen.storyboard */,
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E7283A1C754E2700DC2A01 /* ViewController.m in Sources */,
+				43E7284F1C754F8200DC2A01 /* shopModel.m in Sources */,
 				43E728371C754E2700DC2A01 /* AppDelegate.m in Sources */,
 				43E728341C754E2700DC2A01 /* main.m in Sources */,
 			);
